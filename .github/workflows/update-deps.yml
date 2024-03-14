@@ -1,8 +1,9 @@
 name: Renovate Dependencies
 
 on:
-  schedule:
-    - cron: '0 0 * * *' # Запускать ежедневно в полночь
+  push:
+    branches:
+      - main
 
 jobs:
   renovate:

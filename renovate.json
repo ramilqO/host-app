@@ -1,9 +1,11 @@
 {
   "extends": ["config:base"],
+  "onboarding": "immediate",
   "packageRules": [
     {
       "packageNames": ["@rossmanov/micro-1"],
-      "enabled": true
+      "enabled": true,
+      "automerge": true
     }
   ]
 }
