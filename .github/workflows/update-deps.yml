@@ -1,9 +1,8 @@
-name: Renovate Dependencies
+name: Renovate
 
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: '*/10 * * * *' # Запускать каждые 10 минут
 
 jobs:
   renovate:
