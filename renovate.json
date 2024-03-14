@@ -1,0 +1,9 @@
+{
+  "extends": ["config:base"],
+  "packageRules": [
+    {
+      "packageNames": ["@rossmanov/micro-1"],
+      "enabled": true
+    }
+  ]
+}
